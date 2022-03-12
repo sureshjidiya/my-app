@@ -2,11 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import New from './New';
 import reportWebVitals from './reportWebVitals';
+
+
+const element = <Welcome name="Sara" />;
+
+
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <New />
   </React.StrictMode>,
   document.getElementById('root')
 );
